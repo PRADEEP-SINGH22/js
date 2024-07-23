@@ -1,5 +1,4 @@
 let a = 80;
-
 let b = new Number(80);
 
 console.log(a);

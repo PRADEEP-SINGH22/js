@@ -76,7 +76,26 @@ const complete = [
     }
 ]
 
-console.log( complete[0]);
+// console.log( complete[0]);
+
+
+// {
+//     "name": " pradeep ",
+//     "age": "23",
+//     "mobile": "9654056896"
+// }
+
+[
+    {
+
+    },
+    {
+
+    },
+    {
+
+    }
+]
 
 
 

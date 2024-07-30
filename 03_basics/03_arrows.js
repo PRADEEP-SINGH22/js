@@ -11,21 +11,17 @@ const user = {
 }
 
 user.anyuser();
-
 user.username = " rajat ";
-
 user.anyuser();
 
 
 
-const hello = function() 
+const hello = (num1,num2) => 
 {
-    let username = "pradeep"
-
-    console.log(this);
+    return num1+num2;
 }
 
-hello()
+console.log(hello(10,5));
 
 
 

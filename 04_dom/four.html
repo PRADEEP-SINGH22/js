@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> getting more on dom</title>
+</head>
+<body style="background-color: black;color: white;">
+    
+    <ul class="languages">
+        <li>javascript</li>
+    </ul>
+</body>
+
+<script>
+    function addlanguage(langname)
+    {
+        const li=document.createElement('li');
+
+        li.innerHTML = langname;
+
+        const first=document.querySelector('.languages');
+        first.appendChild(li);
+    }
+
+    addlanguage('python');
+    addlanguage('cpp')
+
+    function moreadd(langname)
+    {
+        const li = document.createElement('li');
+        const parent=document.createTextNode(langname);
+        li.appendChild(parent);
+
+        document.querySelector('.languages').appendChild(li);
+    }
+
+    moreadd('java');
+
+
+</script>
+</html>
